@@ -1,0 +1,117 @@
+div {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    display: block;
+}
+
+h1 {
+    text-align: left;
+    width: 100%;
+    color:black;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-top: 45px;
+}
+
+h2 {
+    text-align: justify;
+    width: 100%;
+    color:black;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-top: 50px;
+    margin-top: 45px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.top-container {
+    margin:0;
+    width: 100%;
+    border: 5px;
+    border-style: solid;
+    border-color: pink;
+    background-color: pink;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.box-one {
+    height: 150px;
+    width: 575px;
+    display: inline-block;
+}
+
+.box-two {
+    height: 150px;
+    width: 80px;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.box-three {
+    height: 150px;
+    width: 80px;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.box-four {
+    height: 150px;
+    width: 80px;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.middle-container {
+    width: 100%;
+    border: 6px;
+    border-style: dotted;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-top: 8px;
+}
+
+.bottom-container {
+    width: 100%;
+    border: 6px;
+    border-style: dotted;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 25px;
+    margin-top: 8px;
+}
+
+.html-img {
+    float: left;
+    border-radius: 25%;
+    width: 15%;
+    padding: 12px;
+    
+}
+
+.css-img {
+    float: right;
+    border-radius: 25%;
+    width: 20%;
+    padding: 12px;
+}
