@@ -53,10 +53,10 @@ function addItem(item) {
 */
 
 //CODE HERE
-//groceries.splice(0,1)
 
+groceries.splice(0,1)
 function removeItem(index) {
-    groceries.splice(index[0,1])
+    groceries.splice(index)
     displayData()
 }
 
@@ -73,7 +73,19 @@ function removeItem(index) {
 
 //CODE HERE
 
-// function checkGroceryCount(num) {
+function checkGroceryCount(num) {
+    num = groceries.length
+    if(num === 1) {
+       return '1 item'
+     }else if(num >= 1 && num <= 5) {
+       return `${num} items`
+     }else {
+       return 'That looks like a big trip'
+     }
+  }
+ //checkGroceryCount(8);
+
+ // function checkGroceryCount(num) {
 //     for (let i = 0; i < groceries.length; i++) 
 //         num = groceries.length
 //       if(num > 5) {
@@ -86,18 +98,6 @@ function removeItem(index) {
 //       }
 // }
 //checkGroceryCount(3);
-
-function checkGroceryCount(num) {
-    num = groceries.length
-    if(num === 1) {
-       return '1 item'
-     }else if(num >= 1 && num <= 5) {
-       return `${num} items`
-     }else {
-       return 'That looks like a big trip'
-     }
-  }
- checkGroceryCount(8);
 
 //////////////////Check out your code!////////////////////
 /*

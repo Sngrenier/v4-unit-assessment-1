@@ -111,6 +111,18 @@ h3 {
     margin-left: 50px;
 }
 
+.left-eye {
+    float: left;
+    padding: 15px;
+    margin: 10px;
+}
+
+.right-eye {
+    float:left;
+    padding: 25px;
+    margin: 35px;
+}
+
 .circle-two {
     width: 200px;
     height: 200px;

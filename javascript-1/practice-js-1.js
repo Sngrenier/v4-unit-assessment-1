@@ -87,7 +87,8 @@ const love = 'yoga'
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-const colorCopy = faveColors.slice()
+const colorCopy = faveColors.slice(0,3)
+
 
 
 //////////////////PROBLEM 9////////////////////
@@ -177,10 +178,12 @@ function arrayReverser(arr) {
   let reversed = []
 
   for(let i = reversed.length - 1; i>= 0; i--){
-    console.log(reversed[i])
+    // console.log(reversed[i])
+    return (reversed[i])
+
   }
 }
-//arrayReverser()
+arrayReverser()
 
 
 //////////////////PROBLEM 14////////////////////
