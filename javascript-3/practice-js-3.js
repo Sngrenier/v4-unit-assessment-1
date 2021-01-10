@@ -2,11 +2,13 @@
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
 //CODE HERE
+let groceries = ['kale', 'avocados', 'fish']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
+let yourName = 'Stacy'
 
 //////////////////STEP 3////////////////////
 /*
@@ -17,6 +19,12 @@
 */
 
 //CODE HERE
+function setGroceryListTitle(x) {
+    return `${x}'s Grocery List`
+}
+setGroceryListTitle()
+
+
 
 //////////////////STEP 4////////////////////
 /* 
@@ -28,6 +36,14 @@
 
 //CODE HERE
 
+
+groceries.push('chicken')
+function addItem(item) {
+    groceries.push(item)
+    displayData()
+}
+
+
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
@@ -37,6 +53,12 @@
 */
 
 //CODE HERE
+//groceries.splice(0,1)
+
+function removeItem(index) {
+    groceries.splice(index[0,1])
+    displayData()
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -51,6 +73,31 @@
 
 //CODE HERE
 
+// function checkGroceryCount(num) {
+//     for (let i = 0; i < groceries.length; i++) 
+//         num = groceries.length
+//       if(num > 5) {
+//         return 'That looks like a big trip'
+//       }else if(num === 1) {
+//         return '1 item'
+//       }else if(num >= 1 && num <= 5) {
+//         return `${num} items`
+//       }else {
+//       }
+// }
+//checkGroceryCount(3);
+
+function checkGroceryCount(num) {
+    num = groceries.length
+    if(num === 1) {
+       return '1 item'
+     }else if(num >= 1 && num <= 5) {
+       return `${num} items`
+     }else {
+       return 'That looks like a big trip'
+     }
+  }
+ checkGroceryCount(8);
 
 //////////////////Check out your code!////////////////////
 /*

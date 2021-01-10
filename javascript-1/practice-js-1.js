@@ -65,7 +65,7 @@ function oddChecker(num) {
     return 'the number is odd'
   }
 }
-oddChecker()
+//oddChecker()
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -130,7 +130,6 @@ const me = {
     return `Hello! My name is ${firstName} and I live in ${state}`
 }
 };
- me.greeter();
 
 
 //////////////////PROBLEM 12////////////////////
@@ -181,7 +180,7 @@ function arrayReverser(arr) {
     console.log(reversed[i])
   }
 }
-arrayReverser()
+//arrayReverser()
 
 
 //////////////////PROBLEM 14////////////////////
@@ -260,15 +259,14 @@ function isItBob(obj, cb) {
 //CODE HERE
 
 function giveMeDoubles(arr, cb) {
-  let numsArr = [1,2,3,4,5]
+  let numsArr = []
 
   for(let i = 0; 1 < numsArr.length; i++) {
-    numsArr[i] * 2
+    numsArr[i] *= 2
   }
   return numsArr
 }
-
-//doubleMeNumbers()
+//giveMeDoubles()
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -296,3 +294,29 @@ function giveMeDoubles(arr, cb) {
 */
 
 //CODE HERE
+
+function carFactory(make, model, year) {
+  let myCar = {
+  make: 'Audi',
+  model: 'Model',
+  year: '2019',
+  };
+// if(year >= 2018) {
+//   carFactory.myCar.isNew = true
+//   return {
+//     make,
+//     model,
+//     year,
+//     isNew,
+//   }
+// }
+// } else(year < 2018) {
+//   carFactory.myCar.isNew = false
+//   return {
+//     make,
+//     model,
+//     year,
+//     isNew,
+//   }
+// };
+}

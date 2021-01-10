@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'Git is a command line interface, and is SOOO much better than GUI.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'GitHub is a great place to store your work remotely.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +37,11 @@
 
 //CODE HERE
 
+const init = {
+    description: 'initiate action',
+    code: 'git init',
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +49,11 @@
 */
 
 //CODE HERE
+
+const clone = {
+    description: 'used to copy data',
+    code: 'git clone followed by the copied url',
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +63,11 @@
 
 //CODE HERE
 
+const status = {
+    description: 'shows you the status of previous command',
+    code: 'git status',
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +75,10 @@
 */
 
 //CODE HERE
+const add = {
+    description: 'adds modified folders to the staging area for uploading',
+    code: 'git add .',
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +88,11 @@
 
 //CODE HERE
 
+const commit = {
+    description: 'committing selected files for uploading',
+    code: 'git commit -m "comment for saving"',
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +101,11 @@
 
 //CODE HERE
 
+const addRemote = {
+    description: 'adds the location of your remote repository where you will pull from',
+    code: '$ git remote add origin <url to your git repo>',
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +113,8 @@
 */
 
 //CODE HERE
+
+const push = {
+    description: 'officially uploading committed files',
+    code: 'git push',
+}

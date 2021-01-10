@@ -61,7 +61,7 @@ h3 {
     height: 150px;
     width: 400px;
     background-color: blueviolet;
-    border: 5px;
+    border: 3px;
     border-style: solid;
     border-color: red;
     display: inline-block;
@@ -165,7 +165,7 @@ h3 {
     height: 200px;
     width: 200px;
     background-color:brown;
-    margin-top: -250px;
+    margin-top: -275px;
     margin-left: 50px;
 }
 
